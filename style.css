@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+  --fc-text: #C4C4CC;
+  --fc-textHover: #acacb4;
+  --fm-text: 'Roboto', sans-serif;
+}
+body{
+  font-family: var(--fm-text);
+  box-sizing: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--fc-text);
+}
+#app{
+  height: 100%;
+}
+nav{
+  position: absolute;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  gap: 3.2rem;
+  margin: 4rem 0 4rem 7.2rem;
+}
+nav a{
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--fc-text);
+  font-size: 2rem;
+}
+nav a:hover{
+  color: var(--fc-textHover);
+}
+nav a svg{
+  width: 4.9rem;
+  height: 4.2rem;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.home{
+  display: grid;
+  place-content: center;
+  background-image: url("/image/mountains-universe-1\ 1.png");
+  background-size: 100% 100vh;
+}
+h1 {
+  font-size: 4.8rem;
+  line-height: 125%;
+  font-weight: 700;
+}
+.home h1{
+  margin-bottom: 2.4rem;
+}
+.button{
+  text-decoration: none;
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.5rem;
+  color: var(--fc-text);
+  padding: 1.2rem 3.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: fit-content;
+  margin: auto;
+}
+.universe {
+  display: grid;
+  align-content: center;
+  justify-content: start;
+  padding-left: 10.2rem;
+  background-image: url("/image/mountains-universe-2.png");
+  background-size: 100% 100vh;
+}
+.exploration{
+  display: grid;
+  align-content: center;
+  justify-content: start;
+  padding-left: 10.2rem;
+  background-image: url("/image/mountains-universe-3.png");
+  background-size: 100% 100vh;
+}
+.error404{
+  display: grid;
+  align-content: center;
+  justify-content: start;
+  padding-left: 10.2rem;
+  background-image: url("/image/mountains-universe-3.png");
+  background-size: 100% 100vh;
+}
+.inf h1{
+  margin-bottom: 1.6rem;
+}
+.inf p{
+  width: 64.8rem;
+  font-size: 1.8rem;
+  line-height: 160%;
+}
